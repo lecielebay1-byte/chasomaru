@@ -36,6 +36,9 @@ Claude Code でこのリポジトリを開き、次のコマンドを入力し�
 | `/create-post NISAとiDeCoの違い` | 画像（カルーセル）投稿を一式作る |
 | `/create-reel 複利ってなに？を30秒で` | リールを一式作る |
 | `/review-insights` | 過去投稿の数字を振り返る |
+| `/add-character` | 新しい発信者キャラクターを図鑑に登録する（画像を貼ると見た目も書き起こします） |
+
+発信者キャラクターは投稿ごとに指定します（例: `/create-post 指値と成行の違い キャラはちゃそまる`）。新しいキャラを指定すると `brand/characters/` に自動でストックされます。
 
 特定のメンバーに直接頼むこともできます（例:「researcher に新NISAの最新の非課税枠を調べさせて」）。
 
@@ -49,6 +52,7 @@ Claude Code でこのリポジトリを開き、次のコマンドを入力し�
 
 ```
 brand/            ブランドガイド・コンプラルール・Instagram 仕様
+  characters/     キャラクター図鑑（キャラごとの profile.md と画像）
 templates/        ブリーフ・カルーセル・リール台本のテンプレート
 content/
   ideas/          週間計画（YYYY-Www.md）とネタ帳（backlog.md）

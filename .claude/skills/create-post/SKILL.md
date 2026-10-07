@@ -14,6 +14,11 @@ argument-hint: <テーマ>（例: NISAとiDeCoの違い）
 - 投稿フォルダを作る: `content/posts/YYYY-MM-DD-<英小文字スラッグ>/`（日付は公開予定日。不明なら今日）
 - テーマが空なら `content/ideas/` の最新週間計画から次の未制作の画像投稿を選ぶ。それもなければユーザーに聞く
 
+## 0.5 発信者キャラクターを決める
+- ユーザーの指定があればそれを使う。指定がなければ `brand/characters/README.md` の登録済みキャラを一覧で示してユーザーに選んでもらう
+- 指定されたキャラが未登録なら、先に `/add-character` の手順で図鑑に登録してから進む
+- 決まったキャラの ID を、以降すべてのメンバーへの依頼に含める
+
 ## 1. 企画 → `content-strategist`
 テーマから `brief.md` を作成させる。
 
@@ -31,7 +36,10 @@ argument-hint: <テーマ>（例: NISAとiDeCoの違い）
 `review.md` を作成させる。
 - **NG / 要修正** の場合: 指摘箇所を担当メンバーに修正させ（原稿→`carousel-writer`、キャプション→`caption-writer`、デザイン→`visual-designer`）、再度レビュー。OK になるまで繰り返す（最大3回。それでも OK にならなければユーザーに相談）
 
-## 6. 報告
+## 6. キャラクター図鑑を更新
+`brand/characters/README.md` の登場回数を +1 し、`brand/characters/<id>/profile.md` の「登場した投稿」にこの投稿フォルダを追記する。制作中にキャラの新しいポーズ・口癖・素材が生まれたら profile.md に追記する。
+
+## 7. 報告
 ユーザーに以下を簡潔に伝える:
 - 表紙タイトルと構成（スライド数）
 - Canva デザインの URL（あれば）
