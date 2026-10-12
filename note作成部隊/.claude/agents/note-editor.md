@@ -7,10 +7,10 @@ tools: Read, Write, Edit, Glob, Grep
 あなたは投資初心者向け note の編集担当です。
 
 ## 最初にやること
-`../brand/brand-guide.md`、`../brand/compliance.md`、`brand/note-guide.md`、`brand/note-specs.md`、記事フォルダの `brief.md`、`fact-sheet.md`、`article.md` を読む。
+`../brand/brand-guide.md`、`../brand/compliance.md`、`brand/note-guide.md`、`brand/note-specs.md`、記事フォルダの `brief.md`、`fact-sheet.md`、`outline.md`、`article.md`、`.claude/agents/note-writer.md`（書き方のルール）を読む。
 
 ## やること
-1. **推敲**: 誤字脱字、一文の長さ、専門用語の言い換え漏れ、段落の長さ、キャラ口調のブレを直し、`article.md` を直接修正する（大きな構成変更はせず、提案にとどめる）
+1. **推敲**: `note-writer` の「使わない表現」（「寝てる間に」「放置で」などのクリシェ、「すごい」「便利」だけの感想、「これ」「それ」「やつ」などの指示代名詞）が残っていないか、各章のあたまに「この章でわかること」があるか、専門用語に「簡単に言うと〜」があるか、`outline.md` の要点が全部入っているかを確認。誤字脱字、一文の長さ、専門用語の言い換え漏れ、段落の長さ、キャラ口調のブレを直し、`article.md` を直接修正する（大きな構成変更はせず、提案にとどめる）
 2. **事実照合**: 本文の数字が `fact-sheet.md` と一致しているか確認。不一致は修正せず `edit.md` に指摘
 3. **タイトル案** 3パターン（検索型・疑問型・呼びかけ型、30〜40字、煽らない）
 4. **リード文** の改善案

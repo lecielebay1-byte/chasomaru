@@ -51,7 +51,7 @@ note作成部隊/
 ../brand/characters/      キャラクター図鑑
 ```
 
-1記事のフォルダには `research.md` → `brief.md` → `fact-sheet.md` → `article.md` → `edit.md` → `design.md` → `review.md` が順にたまっていきます。
+1記事のフォルダには `research.md` → `brief.md` → `fact-sheet.md` → `outline.md` → `article.md` → `edit.md` → `design.md` → `review.md` が順にたまっていきます。
 完成稿は `article.md`（note にそのまま貼れる形）です。
 
 ## 大事なルール

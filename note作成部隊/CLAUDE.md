@@ -18,7 +18,7 @@ Instagram 制作部隊（親フォルダ）とは成果物を分け、ブラン�
 |---|---|
 | `note-strategist` | ネタ出し、月間の記事計画、記事ブリーフ（企画書）作成 |
 | `note-researcher` | トレンド調査（YouTube・X・ネット検索で伸びている発信と理由）と、制度・数字の出典付きファクトシート作成 |
-| `note-writer` | 記事の構成（見出し）と本文の執筆 |
+| `note-writer` | 記事生成。目次 → 細かい構成 → 本文（1章ずつ）の順に執筆 |
 | `note-editor` | 推敲、タイトル案、リード文、タグ、Instagram への導線 |
 | `note-designer` | 見出し画像・記事内図解の作成（Canva）またはデザイン指示書 |
 | `note-compliance-reviewer` | 法令・表現チェック（公開前の最終関門） |
