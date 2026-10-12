@@ -20,10 +20,13 @@ argument-hint: <テーマ>（例: 指値と成行の違いを図解でじっく�
 - 未登録のキャラなら、先に `../brand/characters/_template.md` に沿って図鑑に登録してから進む
 - 決まったキャラの ID を、以降すべてのメンバーへの依頼に含める
 
-## 1. 企画 → `note-strategist`
-`brief.md` を作成させる。Instagram の元投稿があればパスを伝える。
+## 0.8 トレンド調査 → `note-researcher`
+テーマまわりで伸びている発信を YouTube・X・ネット検索（最低2つ）で集めさせ、`research.md` を作成させる（記事は書かせない）。
 
-## 2. 調査 → `note-researcher`
+## 1. 企画 → `note-strategist`
+`research.md` を読ませたうえで `brief.md` を作成させる。Instagram の元投稿があればパスを伝える。
+
+## 2. ファクトチェック → `note-researcher`
 `fact-sheet.md` を作成させる。数字や制度を扱わない記事でも、主張の根拠を簡単に確認させる。
 
 ## 3. 執筆 → `note-writer`
