@@ -61,6 +61,7 @@ content/
   reports/        分析レポート
 .claude/agents/   部隊メンバーの定義
 .claude/skills/   制作フロー（/create-post など）
+note作成部隊/     note 記事専用の作業場（このフォルダを開いて /create-note）
 ```
 
 1投稿のフォルダには `brief.md` → `fact-sheet.md` → `carousel.md` or `reel-script.md` → `design.md` → `caption.md` → `review.md` が順にたまっていきます。
