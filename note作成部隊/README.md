@@ -18,15 +18,15 @@ Instagram 用の制作部隊（親フォルダ）とは別に動きますが、�
 ## 部隊の構成
 
 ```
-                 編集長（メインの Claude）
-                          │
-  ┌───────────┬───────────┼───────────┬───────────┐
-企画担当     リサーチャー   ライター     編集担当     デザイナー
-note-        note-         note-        note-        note-
-strategist   researcher    writer       editor       designer
-                          │
-             コンプラ・レビュアー（公開前の最終関門）
-             note-compliance-reviewer
+                        編集長（メインの Claude）
+                                 │
+  ┌──────────┬──────────┬────────┼─────────┬──────────┬──────────┐
+企画担当    リサーチャー  記事生成   タイトル担当  編集担当    デザイナー
+note-       note-        note-      note-        note-       note-
+strategist  researcher   writer     title-writer editor      designer
+                                 │
+                    コンプラ・レビュアー（公開前の最終関門）
+                    note-compliance-reviewer
 ```
 
 ## フォルダ構成
@@ -51,7 +51,7 @@ note作成部隊/
 ../brand/characters/      キャラクター図鑑
 ```
 
-1記事のフォルダには `research.md` → `brief.md` → `fact-sheet.md` → `outline.md` → `article.md` → `edit.md` → `design.md` → `review.md` が順にたまっていきます。
+1記事のフォルダには `research.md` → `brief.md` → `fact-sheet.md` → `outline.md` → `article.md` → `title.md` → `edit.md` → `design.md` → `review.md` が順にたまっていきます。
 完成稿は `article.md`（note にそのまま貼れる形）です。
 
 ## 大事なルール
