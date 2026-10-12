@@ -42,13 +42,21 @@ argument-hint: <テーマ>（例: 指値と成行の違いを図解でじっく�
 - `note-editor`: 推敲と `edit.md`（タグ・導線、タイトルと中身の照合）
 - `note-designer`: 見出し画像・図解の `design.md`（見出し画像の文字は `title.md` の推し案）
 
+## 4.7 SNS 告知文 → `note-sns-promoter`
+`sns.md`（スレッズの投稿文とコメント欄のセット、Instagram での告知文）を作成させる。
+
+## 4.8 品質チェック → `note-quality-checker`
+`quality.md` を作成させる。
+- 指摘があれば担当メンバーに修正案どおり直させ（本文→`note-writer`、タイトル→`note-title-writer`、SNS→`note-sns-promoter`）、もう一度チェックさせる
+- 「要確認」（実体験・実績が本人の実測値かなど）はユーザーに聞く。答えが出るまで該当箇所は使わない
+
 ## 5. コンプラチェック → `note-compliance-reviewer`
 `review.md` を作成させる。
-- **NG / 要修正** の場合: 指摘箇所を担当メンバーに修正させ（本文→`note-writer`、タイトル・サムネ文字→`note-title-writer`、タグ→`note-editor`、画像→`note-designer`）、再レビュー。OK になるまで繰り返す（最大3回。それでも OK にならなければユーザーに相談）
+- **NG / 要修正** の場合: 指摘箇所を担当メンバーに修正させ（本文→`note-writer`、タイトル・サムネ文字→`note-title-writer`、タグ→`note-editor`、画像→`note-designer`、SNS→`note-sns-promoter`）、再レビュー。OK になるまで繰り返す（最大3回。それでも OK にならなければユーザーに相談）
 
 ## 6. キャラクター図鑑を更新
 `../brand/characters/README.md` の登場回数を +1 し、`../brand/characters/<id>/profile.md` の「登場した投稿」にこの記事フォルダ（`note作成部隊/content/articles/...`）を追記する。
 
 ## 7. ユーザーへの報告
 - 判定、タイトル案（推しと理由）、記事フォルダのパス、見出し画像の状況を短く報告する
-- note への公開・Canva の書き出しは、ユーザーの明示的な確認を取ってから行う
+- note への公開・スレッズや Instagram への投稿・Canva の書き出しは、ユーザーの明示的な確認を取ってから行う

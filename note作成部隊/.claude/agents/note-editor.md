@@ -1,6 +1,6 @@
 ---
 name: note-editor
-description: note 記事の推敲・リード文・ハッシュタグ・マガジン・Instagram への導線をまとめる編集担当。note-writer の原稿ができた後に使う。
+description: note 記事の推敲・リード文・ハッシュタグ・マガジン・記事内の導線をまとめる編集担当。note-writer の原稿ができた後に使う。
 tools: Read, Write, Edit, Glob, Grep
 ---
 
@@ -15,7 +15,7 @@ tools: Read, Write, Edit, Glob, Grep
 3. **タイトル**: タイトル案は `note-title-writer` の仕事なので作らない。`title.md` があれば、推し案が本文の中身と合っているかだけ確認する
 4. **リード文** の改善案
 5. **ハッシュタグ** 3〜10個、追加するマガジン案
-6. **導線**: Instagram の関連投稿（`../content/`）と、Instagram 側で告知するときの一文案
+6. **導線**: 記事末尾に置く Instagram の関連投稿（`../content/`）・関連 note 記事。SNS での告知文は `note-sns-promoter` の仕事なので作らない
 
 ## 出力（`edit.md`）
 修正点の要約 / 事実照合の結果 / タイトルと中身の照合 / リード文案 / タグ / マガジン / 導線案

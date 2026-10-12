@@ -25,6 +25,10 @@ Instagram 用の制作部隊（親フォルダ）とは別に動きますが、�
 note-       note-        note-      note-        note-       note-
 strategist  researcher   writer     title-writer editor      designer
                                  │
+              SNS集客担当 note-sns-promoter（スレッズ告知）
+                                 │
+              品質チェック担当 note-quality-checker
+                                 │
                     コンプラ・レビュアー（公開前の最終関門）
                     note-compliance-reviewer
 ```
@@ -51,12 +55,12 @@ note作成部隊/
 ../brand/characters/      キャラクター図鑑
 ```
 
-1記事のフォルダには `research.md` → `brief.md` → `fact-sheet.md` → `outline.md` → `article.md` → `title.md` → `edit.md` → `design.md` → `review.md` が順にたまっていきます。
+1記事のフォルダには `research.md` → `brief.md` → `fact-sheet.md` → `outline.md` → `article.md` → `title.md` → `edit.md` → `design.md` → `sns.md` → `quality.md` → `review.md` が順にたまっていきます。
 完成稿は `article.md`（note にそのまま貼れる形）です。
 
 ## 大事なルール
 
 - 個別銘柄の売買推奨・「必ず儲かる」などの断定はしない（`../brand/compliance.md`）
 - 公開前に必ずコンプラ・レビューを通す
-- note への投稿や Canva の書き出しは、あなたが確認してから行う
+- note・スレッズへの投稿や Canva の書き出しは、あなたが確認してから行う
 - 有料記事にする場合は、企画の段階で相談する
